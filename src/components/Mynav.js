@@ -17,18 +17,32 @@ const Mynav = () => {
           <div className="resume">My CV</div>
         </div>
       </a>
-      <a
-        href="https://disneyplus-clone-1f559.web.app/"
-        target="_new"
-      >
+      <a href="https://disneyplus-clone-1f559.web.app/" target="_new">
         <div className="c1">
+
           <div className="resume">Project</div>
         </div>
       </a>
-      
       <div className="container">
         <div className="name">Saurabh Kumar Singh</div>
         <p className="about">Software Developer </p>
+          <div className="wrapper">
+            <div className="static-txt">I'm a</div>
+            <ul className="dynamic-txts">
+              <li>
+                <span>Software Developer</span>
+              </li>
+              <li>
+                <span>MERN Stack Developer</span>
+              </li>
+              <li>
+                <span>Website Maker</span>
+              </li>
+              <li>
+                <span>Freelancer</span>
+              </li>
+            </ul>
+          </div>
         <p className="about1">
           Experience of 1.4+ Years in Software Development. you can join me
           below!{" "}
@@ -43,7 +57,6 @@ const Mynav = () => {
         <div className="cv1">
           <Myskills />
         </div>
-      
 
         <div className="cv1">
           <div className="cert">
